@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=Economica:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="pageTitle">
+        <h1>Contact us</h1>
+      </div>
+
+      <div class="navi">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="formContainer">
+      <form class="contactForm" action="mail.php" method="get">
+          <!-- <p>Your name</p> -->
+          <input type="text" name="name" placeholder="Your name">
+          <!-- <p>Your Email</p> -->
+             <input type="email" name="email"placeholder ="Your email">
+             <!-- <p>Your message</p> -->
+                <textarea name="textArea" rows="10" cols="80" placeholder="Your message"></textarea>
+                  <div class="submitButtonContainer">
+                    <button type="submit" name="submit">Submit</button>
+                  </div>
+      </form>
+    </div>
+
+  </body>
+</html>
